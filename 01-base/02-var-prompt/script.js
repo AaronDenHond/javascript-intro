@@ -11,6 +11,6 @@
 
 (function() {
 
-    prompt ['what the fuck is your name you little shit?']
+    result = window.prompt("What is your name?")
 
 })();
