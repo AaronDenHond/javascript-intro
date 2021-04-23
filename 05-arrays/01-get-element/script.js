@@ -26,6 +26,20 @@
         "cherry",
     ];
 
+//console.log(fruits.length); //checking list item length
+
+//console.log(fruits.indexOf("durian")); // checking index of item
+
+document.getElementById("run").onclick =  console.log(fruits[3]);
+    
+
+
+}
+
+
+
+
+
     // your code here
 
-})();
+)();

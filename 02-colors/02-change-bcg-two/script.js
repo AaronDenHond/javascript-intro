@@ -10,7 +10,11 @@
 // You will have time to focus on it later.
 
 (function() {
-
+ 
     // your code here
+    document.getElementById('run').onclick = function() {
+        document.body.style.backgroundColor = document.getElementById('color').value ;
+    }
+
 
 })();

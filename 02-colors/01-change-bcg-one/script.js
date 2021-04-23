@@ -12,5 +12,22 @@
 (function() {
 
     // your code here
+    document.getElementById('red').onclick = function changebackground (){
+        document.body.style.backgroundColor='red';
+    }
+    
+    document.getElementById('green').onclick = function changebackground (){
+            document.body.style.backgroundColor='green';  
+    }
+            
+    document.getElementById('yellow').onclick = function changebackground (){
+                document.body.style.backgroundColor='yellow';   
+    }     
+
+    document.getElementById('blue').onclick = function changebackground (){
+                    document.body.style.backgroundColor='blue';
+    }
+    
+ 
 
 })();

@@ -9,8 +9,26 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
 
-    // your code here
 
-})();
+(function () {
+
+  let Age = prompt("What is your age?");
+  let Gender = prompt("What is your gender?");
+  let Town = prompt("What town do you live in?");
+  let Answer = confirm("Are you " + Age + " ,Is your gender " + Gender + " Do you live in, " + Town + " ,Is your info correct?");
+
+  while (Answer == false) {
+    Age = prompt("What is your age?");
+    Gender = prompt("What is your gender?");
+    Town = prompt("What town do you live in?");
+    if (confirm ("Are you " + Age + " ,Is your gender " + Gender + " Do you live in, " + Town + " ,Is your info correct?")){
+      Answer = true;
+
+    }
+  }
+
+
+
+
+}());

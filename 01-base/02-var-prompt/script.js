@@ -11,6 +11,7 @@
 
 (function() {
 
-    result = window.prompt("What is your name?")
+   let getName = prompt("What's your name?");
+   alert("Hello," + getname)
 
 })();
