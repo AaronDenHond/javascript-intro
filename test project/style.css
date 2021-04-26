@@ -1,0 +1,27 @@
+.testdiv {
+
+    border : 10px solid black;
+    height : 100px;
+    width : 100px ;
+}
+
+.testdiv.red {
+
+    background-color: red;
+}
+
+.testdiv.yellow {
+
+    background-color: yellow;
+}
+
+.testdiv.green {
+
+    background-color: green;
+}
+
+.testdiv.blue {
+
+    background-color: blue;
+}
+

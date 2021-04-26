@@ -11,7 +11,7 @@
 
 (function() {
 
-   let getName = prompt("What's your name?");
-   alert("Hello," + getname)
+   let getName = prompt("What's your name?");  // prompt gives a popup where the user can put in information
+   alert("Hello," + getName)
 
 })();

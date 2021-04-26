@@ -11,7 +11,7 @@
 
 (function () {
 
-    let hello = 'Hello World';
-    alert(hello)
+    let hello = 'Hello World'; // declaring variable and assigning value with the operator =
+    alert(hello) //alert function gives a popup
 })();
 

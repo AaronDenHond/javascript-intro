@@ -13,10 +13,10 @@
   let cake = prompt("want some cake?");
   
   if (cake == "yes") {
-    alert("Congratulations");
+    alert("Congratulations");  // condition in () == means equal to cause 1 = would mean an assignment
   }
   else {
-    alert("More cake for me then :p");
+    alert("More cake for me then :p"); 
   }
   // your code here
 

@@ -14,8 +14,8 @@
 
     // your code here
 
-    document.getElementById("run").onclick = function() {
-        let dobDay = document.getElementById("dob-day").value;
+    document.getElementById("run").onclick = function() {   // we select the element we wont the function to apply to : function starts on click
+        let dobDay = document.getElementById("dob-day").value; // getting a raw value for dobDay via .value
         let dobMonth = document.getElementById("dob-month").value;
         let dobYear = document.getElementById("dob-year").value;
 
@@ -26,8 +26,8 @@
        
     
     
-        let diff = dateToday.getTime() - dobBday.getTime();
-        let age = Math.floor(diff / (1000 * 60 * 60 * 24 * 365));
+        let diff = dateToday.getTime() - dobBday.getTime(); // javascript saves age as milliseconds since 1970
+        let age = Math.floor(diff / (1000 * 60 * 60 * 24 * 365)); // milliseconds -> seconds -> minutes -> hours -> days -> years calculations //math() cause its a method needs brackets math.floor rond af nr beneden
         
         alert(dobBday);
         alert(age);
