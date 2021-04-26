@@ -23,7 +23,22 @@
         "raisin",
         "cerise",
     ];
-
+   
     // your code here
+    
+    //selecting right element and adding an event on click
+    document.getElementById('run').addEventListener('click', myFunction);
+
+    // function that starts on click, console logging before and after myFunction to see differences
+    function myFunction() {
+        console.log(fruits);
+        fruits.pop();
+        fruits.shift();
+        fruits.unshift("Banana");
+        fruits.push("Kiwi");
+        console.log(fruits);
+       
+    };
+  
 
 })();

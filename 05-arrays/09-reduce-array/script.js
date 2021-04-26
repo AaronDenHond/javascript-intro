@@ -9,7 +9,7 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
+(function () {
 
     var people = [
         {
@@ -88,7 +88,13 @@
             age: 81,
         },
     ];
+    document.getElementById('run').addEventListener('click', () => {
+        // your code here 
+        // .reduce used to reduce diff values to 1 value (here its a sum from a calculation)
+     const sum = people.reduce((accumulator, person) => { // person parameter so he goes through every element of the array here it's the array people with person element) 1 by 1
+            return accumulator + person.age;
+        }, 0);
+       console.log(sum);
 
-    // your code here
-
+    })
 })();
