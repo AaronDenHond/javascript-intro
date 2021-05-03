@@ -12,5 +12,11 @@
 (function() {
 
     // your code here
+    let passOne = document.getElementById("pass-one");
+    let counterTeller = document.getElementById("counter");
+    passOne.addEventListener("keydown", function () {
+      counterTeller = passOne.value.length;
+      console.log(counterTeller);
+    });
 
 })();

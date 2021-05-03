@@ -18,6 +18,7 @@
         if (passOne.value !== passTwo.value) {
             passOne.style.backgroundColor = "red";
             passTwo.style.backgroundColor = "red";
+            //message.innerHTML
 
         }
         else {
