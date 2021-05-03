@@ -9,8 +9,13 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
+(function () {
 
     // your code here
+    let img = document.querySelector('img');//select overall image tag, element img
+    let start = img.src;
+    let hover = img.getAttribute('data-hover');
 
+    img.onmouseover = function () { img.src = hover; }
+    img.onmouseout = function () { img.src = start; }
 })();

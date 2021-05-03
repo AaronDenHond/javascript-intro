@@ -19,7 +19,7 @@
     let img = document.createElement("img");
     img.src = source.getAttribute('data-image');
 
-    let figure = document.getElementById("target");
-    figure.appendChild(img);
-
+    let figuretest = document.getElementById("target");
+    figuretest.appendChild(img);
+    source.remove();
 })();
